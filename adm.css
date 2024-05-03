@@ -70,20 +70,31 @@ button:hover {
 
 .container-main{
     display: flex;
-    background-color: #d1d1d1;
+    background-color: #ffffff;
     height: 500px;
     width: 100%;
     flex-direction: row;
-    gap: 30px;
     padding: 10px 0px 10px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .container-top{
     display: flex;
-    background-color: #00b7d3;
+    background-color: #008ab8;
     height: 150px;
     width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    
+}
+
+.space{
+    height: 10px;
 }
 
 .container-uni{

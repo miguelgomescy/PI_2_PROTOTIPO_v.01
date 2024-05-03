@@ -1,0 +1,58 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+
+}
+
+.container-txt{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #64c0eb;
+    height: 500px;
+    width: 80%;
+    border-radius: 35px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.prontuario{
+    margin-bottom: 10px;
+    background-color: #64c0eb;
+    border-radius: 30px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pront{
+    width: 70%;
+    height: 90%;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.buton{
+    width: 70%;
+    border-radius: 40px;
+    background-color: #000000;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buton :hover{
+    background-color: #177d17;
+}

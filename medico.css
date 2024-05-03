@@ -68,29 +68,33 @@ button:hover {
     }
 }
 
-
-.container-main{
+.container-main {
     display: flex;
-    align-items: center;
+    align-items: center; /* Mantém centralizado verticalmente se desejado */
     justify-content: center;
     background-color: #8ac2ca;
-    height: 100%;
-    width: 100%;
-    padding: 5px;
+    height: 100vh; /* Altura total da viewport */
+    width: 100%; /* Largura total */
+    padding: 20px; /* Espaçamento interno */
     flex-direction: column;
+    box-sizing: border-box; 
+    padding-top: 40px;
+    margin-top: 20px;
 }
 
-.container-txt{
+.container-txt {
     background-color: #d6f2f5;
-    height: 300px;
     width: 90%;
+    height: 300px; /* Altura fixa para manter um layout consistente */
     border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto; /* Habilita a barra de rolagem vertical quando necessário */
+    padding: 10px; /* Espaçamento interno para evitar que o conteúdo toque as bordas */
+    box-sizing: border-box; /* Inclui padding no cálculo da width/height */
+}
+
+.container-txt a {
+    text-decoration: none; 
+    color: inherit;
 }
 
 .consul{
@@ -100,9 +104,20 @@ button:hover {
     border-radius: 40px;
     margin-top: 15px;
     cursor: pointer;
- 
-    
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.consul:hover{
+    background-color: #00b7d3;
+    color: #fff;
+}
+
 
 .container-pront{
     background-color: #d6f2f5;
@@ -130,8 +145,19 @@ button:hover {
     margin-top: 10px;
     width: 90%;
     border-radius: 5px;
+    height: 30px;
 }
 
 .espaco{
     height: 10px;
+}
+
+
+.label-in{
+    font-weight: 700;
+}
+
+.texto{
+    font-size: 15px;
+    font-weight: 800;
 }

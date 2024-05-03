@@ -14,10 +14,10 @@ Este projeto foi realizado com a colaboração dos seguintes membros, listados e
 - Miguel G.
 
 
-## 👥 Menção Honrosa | Professor Orientador
+## 🎖️ Menção Honrosa | Professor Orientador
 
 Este projeto foi realizado com a colaboração do seguinte professor:
-- Danilo.
+- Danillo Da Silva Rocha. 👨‍🔬
 
 
 ## 🛠️ Ferramentas Utilizadas

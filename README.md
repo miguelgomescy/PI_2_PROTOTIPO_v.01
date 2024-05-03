@@ -11,7 +11,14 @@ Este projeto foi realizado com a colaboração dos seguintes membros, listados e
 - Gustavo M.
 - João M.
 - José C.
-- Miugel G.
+- Miguel G.
+
+
+## 👥 Menção Honrosa | Professor Orientador
+
+Este projeto foi realizado com a colaboração do seguinte professor:
+- Danilo.
+
 
 ## 🛠️ Ferramentas Utilizadas
 

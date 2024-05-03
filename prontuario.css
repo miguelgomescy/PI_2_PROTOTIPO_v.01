@@ -25,8 +25,7 @@ header{
     padding: 10px;
     padding-bottom: 5px;
 }
-
-.prontuario{
+.prontuario {
     margin-bottom: 10px;
     background-color: #64c0eb;
     border-radius: 30px;
@@ -37,22 +36,26 @@ header{
     flex-direction: column;
 }
 
-.pront{
-    width: 70%;
-    height: 90%;
+.pront {
+    width: 100%; 
     border-radius: 40px;
-    padding: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 70%;
 }
 
-.buton{
-    width: 70%;
+.buton {
+    width: 100%; 
     border-radius: 40px;
     background-color: #000000;
     color: #fff;
-    transition: 0.5s;
+    transition: background-color 0.5s;
     cursor: pointer;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
 }
 
-.buton :hover{
+.buton:hover {
     background-color: #177d17;
 }

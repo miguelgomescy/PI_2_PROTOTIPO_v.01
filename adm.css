@@ -26,7 +26,7 @@ nav a:hover {
 }
 
 
-button {
+button{
     display: flex;
     justify-self: center;
     border: none;
@@ -83,8 +83,8 @@ button:hover {
 
 .container-top{
     display: flex;
-    background-color: #008ab8;
-    height: 150px;
+    background-color: #e7e7e7;
+    height: 2000px;
     width: 90%;
     flex-direction: column;
     justify-content: center;
@@ -98,15 +98,54 @@ button:hover {
 }
 
 .container-uni{
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ef2ff;
     height: 50px;
-    width: 50px;
-
+    width: 80%;
+    border-radius: 50px;
 }
 
 .container-med{
-    background-color: yellow;
+    background-color:   #9ef2ff;
     height: 50px;
-    width: 50px;
+    width: 80%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.unibuton{
+    background-color: green;
+}
+
+.medbuton{
+    background-color: green;
+}
+
+.space{
+    height: 10px;
+}
+
+.container-viewUni{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-viewMed{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.divSpace{
+    height: 60px;
+}
